@@ -1,0 +1,86 @@
+# DemCoin Game Theory Simulator 🎯
+
+## Τι είναι αυτό; / What is this?
+
+A simulation tool for modeling how citizens will behave in the DemCoin economy. Uses game theory to predict:
+- Participation rates
+- Quality of contributions
+- Nash equilibria under different parameter settings
+- Optimal reward structures
+
+## Γιατί το χρειαζόμαστε; / Why we need this?
+
+Before launching DemCoin in real municipalities, we need to predict:
+- Will citizens actually participate?
+- What reward levels will drive quality engagement?
+- How do we prevent gaming the system?
+- What's the optimal balance between incentives and costs?
+
+## Πώς δουλεύει; / How it works?
+
+### The Basic Model
+
+Citizens face a choice:
+- **Study** the policy proposal (costs time, earns DemCoins)
+- **Ignore** it (saves time, earns nothing)
+
+The simulator calculates:
+1. **Individual payoffs** for each strategy
+2. **Nash equilibrium** - what will everyone do?
+3. **Predicted participation rate**
+4. **Expected policy quality**
+
+### Parameters We Can Adjust
+
+- `demcoin_per_hour`: How many DemCoins per hour of quality work
+- `success_bonus`: Extra DemCoins if policy succeeds
+- `quality_threshold`: Minimum quality score to earn rewards
+- `time_cost`: Hours needed to meaningfully engage
+
+### What We Predict
+
+- Participation rate (% of citizens engaging)
+- Average quality score
+- System sustainability (costs vs. SVI improvement)
+- Optimal parameter settings
+
+## Κατάσταση / Status
+
+**Version:** 0.1 (Proof of Concept)  
+**Last Updated:** November 2025  
+**Pilot Target:** Greek municipality, Q1 2026  
+**Team:** Polis Protocol Foundation
+
+## Επόμενα Βήματα / Next Steps
+
+1. Build basic Python simulator ✓ (in progress)
+2. Test with historical data from prediction markets
+3. Add CareCoin economy modeling
+4. Add WisdomCoin reputation dynamics
+5. Build web interface for non-technical users
+6. Integrate with actual DemCoin smart contracts
+
+## Συνεισφορά / Contributing
+
+This is early-stage research. If you're a:
+- Game theorist
+- Economist
+- Python developer
+- Mechanism designer
+
+...and you want to help predict how democracy 2.0 will actually work, reach out!
+
+## Άδεια / License
+
+TBD - will be open source
+
+## Επικοινωνία / Contact
+
+Petros Bakolas  
+Polis Protocol Foundation  
+Preveza, Greece  
+info@polisprotocol.org
+
+---
+
+*"Η σοφία μετριέται, η δημοκρατία ανταμείβεται" / "Wisdom is measured, democracy is rewarded"*
